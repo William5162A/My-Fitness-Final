@@ -1,0 +1,29 @@
+
+/*@import "tailwindcss";*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+a:focus, button:focus {
+    outline: 3px solid #22C55E;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('font.woff2') format('woff2');
+    font-display: swap;
+}
+
+/* لاستخدام الأحرف العربية فقط */
+@font-face {
+    unicode-range: U+0600-06FF;
+}
+
+
+
+
+
