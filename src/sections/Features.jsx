@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 const Features = () => {
   return (
     <div >
-      <div className={' md:mx-32 mx-10 mb-20  xl:mx-[152px]'} id='features'>
+      <div className={' mx-10 mb-20  xl:mx-[152px]'} id='features'>
         <div className={'text-center mt-14 '}>
           <h2 className={'font-bold text-3xl'}>
             Why choose our training programs?
@@ -17,9 +17,9 @@ const Features = () => {
           </p>
         </div>
 
-        <div className={'flex flex-col lx:flex-row lx:justify-center items-center gap-14 mt-14 text-center'}>
+        <div className={'flex flex-col lg:flex-row lg:justify-center items-center gap-14 mt-14 text-center'}>
 
-          <SpotlightCard className="custom-spotlight-card min-h-[267px] lx:w-[30%] w-[70%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.6)] hover:translate-y-[-10px] duration-300 ease-in-out" spotlightColor="#22C55E">
+          <SpotlightCard className="custom-spotlight-card min-h-[267px] w-[300px] sm:w-[450px] md:w-[600px] lg:w-[350px] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.6)] hover:translate-y-[-10px] duration-300 ease-in-out" spotlightColor="#22C55E">
             <div className={'text-3xl w-full flex justify-center '} style={{ color: '#22C55E' }}>
               <div className={'w-fit bg-[#22C55E55] p-4 rounded-full'}>
                 <FaUserFriends />
@@ -29,7 +29,7 @@ const Features = () => {
             <p className={''}>Certified trainers follow your progress and adjust the program according to your needs and goals</p>
           </SpotlightCard>
 
-          <SpotlightCard className="custom-spotlight-card min-h-[267px] lx:w-[30%] w-[70%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.6)] hover:translate-y-[-10px] duration-300 ease-in-out" spotlightColor="#1559ff">
+          <SpotlightCard className="custom-spotlight-card min-h-[267px] w-[300px] sm:w-[450px] md:w-[600px] lg:w-[350px] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.6)] hover:translate-y-[-10px] duration-300 ease-in-out" spotlightColor="#1559ff">
             <div className={'text-3xl w-full flex justify-center'} style={{ color: '#1559ff' }}>
               <div className={'w-fit bg-[#1559ff55] p-4 rounded-full'}>
                 <FaCalendarAlt />
@@ -39,7 +39,7 @@ const Features = () => {
             <p>Choose the right time and place for you, with the ability to adjust to your daily schedule</p>
           </SpotlightCard>
 
-          <SpotlightCard className="custom-spotlight-card min-h-[267px] lx:w-[30%] w-[70%] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.6)] hover:translate-y-[-10px] duration-300 ease-in-out" spotlightColor="#8B5CF6">
+          <SpotlightCard className="custom-spotlight-card min-h-[267px] w-[300px] sm:w-[450px] md:w-[600px] lg:w-[400px] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.6)] hover:translate-y-[-10px] duration-300 ease-in-out" spotlightColor="#8B5CF6">
             <div className={'text-3xl w-full flex justify-center'} style={{ color: '#8B5CF6' }}>
               <div className={'w-fit bg-[#8B5CF655] p-4 rounded-full'}>
                 <FaStar />
