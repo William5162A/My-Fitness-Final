@@ -35,7 +35,7 @@ const Subscriptions = () => {
 
   return (
     <div id='subscriptions' className={' text-white bg-gray-200 mt-20 pb-20  '}>
-      <div className={'md:mx-32 mx-10 xl:mx-[152px] mt-10'}>
+      <div className={' mx-10 xl:mx-[152px] mt-10'}>
         <div className={'text-center pt-16 '}>
           <h2 className={'font-bold text-3xl mb-5 text-black'}>
             Subscribe Planes
