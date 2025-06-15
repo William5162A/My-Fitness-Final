@@ -20,7 +20,7 @@ const Header = () => {
     //   }
     // };
     const handleResize = debounce(() => {
-      if (window.innerWidth > 1080) setNavBar(false);
+      if (window.innerWidth > 1024) setNavBar(false);
     }, 250);
 
     // استدعاء الدالة عند تحميل الصفحة
@@ -50,7 +50,8 @@ const Header = () => {
 
   return (
     <div className={'p-2 overflow-hidden bg-white text-black fixed top-0 left-0 z-[1110] w-full shadow-[0_12px_12px_-12px_rgba(0,0,0,0.4)]'}>
-      <div className={'md:mx-32 mx-10 xl:mx-[152px] `'}>
+    {/*<div className={'p-2 overflow-hidden bg-white text-black  z-[1110] w-full shadow-[0_12px_12px_-12px_rgba(0,0,0,0.4)]'}>*/}
+      <div className='px-4 md:px-8 lg:px-16 xl:px32 2xl:px-64'>
         <div className={'flex justify-between'}>
           <a href='#home' className={'font-bold flex items-center text-xl  '}>
             <div className={'mr-2 text-3xl text-primary'}>
@@ -60,8 +61,7 @@ const Header = () => {
           </a>
 
           <div>
-            <div style={{height: '50px', position: 'relative' }}
-                 className={'text-black hidden lx:flex'}>
+            <div className={'text-black hidden lg:flex min-h-[50px] relative'}>
               <GooeyNav
                 items={items}
                 particleCount={15}
@@ -77,16 +77,11 @@ const Header = () => {
                 Start Now
               </button>
             </div>
-            {navBar ? <button title={'closeNavBar'} aria-label={'closeNavBar'} className={'lx:hidden text-3xl mt-3'} onClick={() => setNavBar(!navBar)} value={'navButton'}>
+            {navBar ? <button title={'closeNavBar'} aria-label={'closeNavBar'} className={'lg:hidden text-3xl mt-3'} onClick={() => setNavBar(!navBar)} value={'navButton'}>
               <RiCloseLine />
-            </button> :<button title={'OpenNavBar'} aria-label={'OpenNavBar'} className={'lx:hidden text-3xl mt-3'} onClick={() => setNavBar(!navBar)} value={'navButton'}>
+            </button> :<button title={'OpenNavBar'} aria-label={'OpenNavBar'} className={'lg:hidden text-3xl mt-3'} onClick={() => setNavBar(!navBar)} value={'navButton'}>
               <RiMenuLine />
             </button> }
-
-
-
-
-
           </div>
         </div>
 
