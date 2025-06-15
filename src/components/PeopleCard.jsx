@@ -4,8 +4,8 @@ import { CiStar } from "react-icons/ci";
 
 const PeopleCard = ({ peopleImg , peopleName ,altImg }) => {
   return (
-    <div className={'shadow-2xl hover:shadow-black w-[300px] cursor-pointer hover:translate-y-[-8px] transition-all duration-200 ' +
-      'rounded-2xl'}>
+    <div className={'shadow-2xl hover:shadow-black w-[300px] sm:w-[450px] lg:w-[300px] cursor-pointer hover:translate-y-[-8px] transition-all duration-200 ' +
+      'rounded-2xl mt-12'}>
       <div className={'flex items-center justify-around pt-7  '}>
         <div>
           <p>{peopleName}</p>
