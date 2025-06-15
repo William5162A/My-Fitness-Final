@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       screens: {
-        'lx': '1080px'
+        'lx': '1080px',
+        'ms' : '840px',
+        'ssm': '590px',
       },
       colors: {
         primary: '#22C55E',
