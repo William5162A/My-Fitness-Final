@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({photo ,title ,icon ,level ,timeTake ,calories , mainColor , bgColor , altPic}) => {
   return (
     <div className={''}>
-      <div className={'bg-gray-200 m-3 w-[250px] p-2 rounded-2xl shadow-xl hover:shadow-2xl transition-all'}>
+      <div className={'bg-gray-200 m-3 w-[300px] ms:w-[250px] p-2 rounded-2xl shadow-xl hover:shadow-2xl transition-all'}>
         <div className={' px-4 my-10'}>
           <img src={photo} loading="lazy" alt={altPic} className={` w-[250px] h-[200px] scale-75`} />
           <div className={'flex justify-between items-center'}>
