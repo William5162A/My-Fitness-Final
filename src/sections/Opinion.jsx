@@ -5,7 +5,7 @@ import ww from "../assets/ww.webp"
 const Opinion = () => {
   return (
     <div id='trainers' className={'   '}>
-      <div className={'md:mx-32 mx-10 xl:mx-[152px] mt-10'}>
+      <div className={' mx-10 xl:mx-[152px] mt-10'}>
         <div className={'text-center pt-16 '}>
           <h2 className={'font-bold text-3xl mb-5'}>
             What Our Client Says
@@ -14,7 +14,7 @@ const Opinion = () => {
             Join To Thousand Of People Who Change Their Life With Our Programs
           </p>
         </div>
-        <div className={'flex flex-col xl:flex-row items-center justify-around bg-red-7s00 my-10'}>
+        <div className={'flex flex-col lg:flex-row items-center justify-around bg-red-7s00 my-10'}>
           <PeopleCard
             altImg={'William Photo'}
             peopleImg={ww}
