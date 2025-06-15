@@ -73,7 +73,7 @@ const Exercises = () => {
   return (
    <div className={'bg-gray-100 pt-16 pb-24  '}>
      <div >
-       <div className={'md:mx-32 mx-10 xl:mx-[152px] mt-10 '} id='exercises'>
+       <div className={'mx-10 xl:mx-[152px] mt-10 '} id='exercises'>
          <div className={'text-center  '}>
            <h2 className={'font-bold text-3xl'}>
              Common exercises
@@ -94,7 +94,7 @@ const Exercises = () => {
              />
            </div>
          </div>
-         <div className={'mt-14 flex flex-wrap gap-4  bg-redh-700 justify-evenly '}>
+         <div className={'mt-14 flex flex-wrap gap-4  bg-redh-700 justify-evenly  '}>
            <Card
              {...exOne}
            />
