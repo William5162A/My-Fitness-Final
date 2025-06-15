@@ -5,7 +5,7 @@ import {FaSkullCrossbones} from "react-icons/fa6";
 const Plane = ({ title , price , plane , popular=false}) => {
 
   return (
-   <div className={`  xl:w-[400px] xl:h-[600px]  bg-gray-100 rounded-2xl text-black p-10  relative shadow-[10px_12px_12px_-12px_rgba(0,0,0,0.9)] hover:rotate-[0.5deg] hover:scale-105 hover:bg-white duration-300
+    <div className={`sm:w-[450px] md:w-[600px] xl:w-[400px] xl:h-[600px]  bg-gray-100 rounded-2xl text-black p-10  relative shadow-[10px_12px_12px_-12px_rgba(0,0,0,0.9)] hover:rotate-[0.5deg] hover:scale-105 hover:bg-white duration-300
       `}>
       <div className={'w-full flex justify-center items-center'}>
         {popular ? (<div className={'absolute top-2 text-black bg-primary px-4 py-1 rounded-full'}>Most Popular</div>) : null}
