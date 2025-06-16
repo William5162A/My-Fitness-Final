@@ -17,14 +17,16 @@ const QaCard = ({qa , an}) => {
       </div>
       <div>
         {isQaOpen ?
-          <div className={'flex justify-between items-center bg-[#F9FAFB] m-3 px-10 py-4  cursor-pointer transition-all duration-300 ease-in-out'}>
+          <div className={'flex justify-between items-center bg-[#F9FAFB] m-3 px-10 py-4  cursor-pointer transition-all duration-300 ease-in-out scale-100'}>
             <div className={'transition-all duration-300 ease-in-out'}>
               {an}
             </div>
           </div>
         :
-          <div >
-
+          <div className={'scale-0 bg-[#F9FAFB] h-1 transition-all duration-300 ease-in-out'}>
+            <div className={'transition-all duration-700 ease-in-out'}>
+              {an}
+            </div>
           </div>
         }
       </div>
